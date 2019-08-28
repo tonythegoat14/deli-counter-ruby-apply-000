@@ -1,60 +1,36 @@
- ```ruby
-katz_deli = []
-def take_a_number(katz_deli, jason)
-katz_deli << jason
-"Welcome, #{jason}you are number #{katz_deli.1} in line."
-end
-
-def now_serving(katz_deli)
+def take_a_number(katz_deli, name)
   
-  katz_del.lenght == 1 
-else
-  "currently serving #{katz_deli.jason}."
-end
+  take_a_number(katz_deli, "Tony") #=> Welcome, Tony. You are number 1 in line.
+take_a_number(katz_deli, "Peter") #=> Welcome, Peter. You are number 2 in line.
+ take_a_number(katz_deli, "Dame") #=> Welcome, Dame. You are number 3 in line.
+take_a_number(katz_deli, "Ash") #=> Welcome, Ash. You are number 4 in line.
 
-end
-
- def take_a_number(katz_deli, eric)
-   katz_deli << eric
-   def take_a_number(katz_deli, ray)
-     katz_deli ray
-     "welcome, #{eric} and #{ray} you guys are number #{katz_deli.2} and #{katz_deli.3} in line"
-   end
-   
-   def take_a_number(katz_deli, antonio)
-     katz_deli << antonio
-     "welcome, #{antonio} you are number #{katz_deli,4} in line"
-   end
-   
-   def now_serving(katz_deli)
-     katz_del.lenght == 3
-   else
-     "currently serving #{katz_deli.eric}."
-   end
-   
- end
+ end  
  
- def now_serving(katz_deli)
+ def line(katz_deli) 
    
-   katz_del.lenght == 2
- else
-   "currently serving #{katz_deli.ray}."
-  end
-  
- end
-  
-  def now_serving(katz_deli)
+    line(katz_deli) #=> "The line is currently: 1. Tony 2. Peter 3. Dame 4. Ash"
+  line(katz_deli) #=> "The line is currently: 1. Peter 2. Dame 3. Ash"
+   line(katz_deli) #=> "The line is currently:  1. Dame 2. Ash"
+  line(katz_deli) #=> "The line is currently:  1. Ash 2. Dre"
+ line(katz_deli) #=> "The line is currently:  1. Dre"
+ line(katz_deli) #=> "The line is currently empty"
     
-    katz_del.lenght == 1 
-  else
-    "currently serving #{katz_deli.antonio}."
-  end
-  
- end
+ end 
  
  def now_serving(katz_deli)
    
-   katz_del.lengt == "zero"
- else
-   "there is nobody to be served"
+   now_serving(katz_deli) #=> "currently serving Tony"
+now_serving(katz_deli) #=> "currently serving Peter"
+now_serving(katz_deli) #=> "currently serving Dame"
+now_serving(katz_deli) #=> "currently serving Ash"
+now_serving(katz_deli) #=> "currently serving Dre"
+
+ end 
    
+
+
+
+
+
+ 
