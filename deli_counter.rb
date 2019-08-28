@@ -1,10 +1,6 @@
 def take_a_number(katz_deli, name)
   
-  take_a_number(katz_deli, "Tony") #=> Welcome, Tony. You are number 1 in line.
-take_a_number(katz_deli, "Peter") #=> Welcome, Peter. You are number 2 in line.
- take_a_number(katz_deli, "Dame") #=> Welcome, Dame. You are number 3 in line.
-take_a_number(katz_deli, "Ash") #=> Welcome, Ash. You are number 4 in line.
-
+ console.log(katz_deli, "   trey" )
  end  
  
  def line(katz_deli) 
